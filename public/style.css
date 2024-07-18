@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+    color: gray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.imgg {
+    width: 192px;
+    border-radius: 100px;
+    border: solid 1px white;
+    margin-top: 80px;
+   margin-left: 100px;
+}
+
+
+
+.textstyle {
+    display: flex;
+    gap: 100px;
+    width: 100px;
+    font-size: 8px;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 200px;
+   
+}
+
+.button2 {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 250px;
+   margin-left: 70px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  .text {
+    font-size: 20px;
+    /* color:white; */
+    padding-left: 80px;
+  }
+
+  .skills {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 250px;
+    height: 75px;
+    background-color: transparent
+  }
+
+  .buttonwrapper {
+    background-color: gray;
+    border-radius: 10px;
+    margin-top: 50px
+  }
+
+  .whitesquare {
+    height: 180px;
+    border-radius: 10px;
+    width: 300px;
+    margin-top:100px;
+  }
+
+  .whitesquare1 {
+    height: 180px;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 50px;
+  }
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.gap{
+    margin-left: 10px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .whitesquare {
+      width: 80%;
+      height:400px;
+      margin-left: 50px;
+    }
+    .whitesquare1 {
+        width: 80%;
+        height:400px;
+        margin-right: 50px;
+    }
+  }
